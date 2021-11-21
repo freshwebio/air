@@ -1,6 +1,4 @@
-FROM golang:1.16
-
-MAINTAINER Rick Yu <cosmtrek@gmail.com>
+FROM golang:1.17
 
 ENV GOPATH /go
 ENV GO111MODULE on
